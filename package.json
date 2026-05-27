@@ -1,0 +1,18 @@
+{
+  "name": "freecellbiologyapp",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @cell-biology/web dev",
+    "build": "pnpm --filter @cell-biology/web build",
+    "preview": "pnpm --filter @cell-biology/web preview",
+    "typecheck": "pnpm --filter @cell-biology/web exec tsc -b",
+    "test": "pnpm --filter @cell-biology/web test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/cell-biology.git"
+  }
+}

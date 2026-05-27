@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/animalcellsvg.tsx","./src/components/compareview.tsx","./src/components/detailpanel.tsx","./src/components/plantcellsvg.tsx","./src/components/prokaryotecellsvg.tsx","./src/components/quizmode.tsx","./src/components/searchbar.tsx","./src/data/organelles.ts","./src/data/types.ts"],"version":"5.9.3"}
