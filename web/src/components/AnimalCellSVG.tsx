@@ -217,7 +217,6 @@ export default function AnimalCellSVG({ hoveredId, selectedId, onHover, onSelect
         onClick={() => onSelect("vacuoles")}
       >
         <path d="M590 440 Q600 425 615 435 Q625 445 615 460 Q605 470 590 460 Q580 450 590 440Z" fill="#ccfbf1" stroke="#14b8a6" strokeWidth="2" />
-        <path d="M130" fill="none" />
         <ellipse cx="150" cy="170" rx="18" ry="14" fill="#ccfbf1" stroke="#14b8a6" strokeWidth="2" />
         <ellipse cx="680" cy="250" rx="15" ry="20" fill="#ccfbf1" stroke="#14b8a6" strokeWidth="2" />
       </g>
